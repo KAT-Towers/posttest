@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="code.js"></script>
+        <title>Devices</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+        <script src="item.js"></script>
+    </head>
+    <body onload="updateCheckout();" >
+        <div class="jumbotron text-center banner">
+            <hl>APPLE</hl>
+
+        </div>
+        <center><nav>
+            <ul id="links">
+                <li><img class="logo" src="images/logo.png"><a href="index.html">Home</a></li>
+                <li><img class="logo" src="images/logo.png"><a href="devices.html">Devices</a></li>
+                <li><img class="logo" src="images/logo.png"><a href="steve.html">Co-founder</a></li>
+                <li><img class="logo" src="images/logo.png"><a href="contact.html">Contact Us</a></li>
+                <li><img class="logo" src="images/logo.png"><a href="cart.html">Cart</a></li>
+            </ul>
+            <!--Nav bar collapse-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"></button>
+            <span class="navbar-toggler-icon"></span>
+        </nav></center>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <image src="images/phone.jpg"></image>
+                    <h3>iPhone 13</h3>
+                    <p>1,333.00</p>
+                    <input class="btn btn-primary" type="button" value="Add to Cart" onclick="add(0)">
+                </div>
+
+                <div class="col">
+                    <image src="images/ipad.jpg"></image>
+                    <h3>iPad 11 inch</h3>
+                    <p>799.99</p>
+                    <input class="btn btn-primary" type="button" value="Add to Cart" onclick="add(1)">
+                </div>
+        
+                <div class="col">
+                    <image src="images/macbook.jpg"></image>
+                    <h3>MacBook Air</h3>
+                    <p>1,777.00</p>
+                    <input class="btn btn-primary" type="button" value="Add to Cart" onclick="add(2)">
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>

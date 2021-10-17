@@ -1,0 +1,108 @@
+.banner {
+    background-image: url(images/texture.jpg);
+    text-shadow: 4px 4px 4px black;
+    margin: 0px;
+    font-size: 30px;
+}
+
+
+.carousel-caption, h3 {
+    color: black;
+}
+
+#co {
+    border: 3px solid black;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#contact {
+    background-image: url(images/texture2.jpg);
+    font-family: 'Slabo 27px', serif;
+}
+
+#demo{
+    text-align: center;
+}
+
+form{
+    margin-left: 100px;
+}
+
+#founder {
+    font-family: 'Permanent Marker', cursive;
+}
+
+nav {
+    background-color: white;
+    padding: .5px;
+    margin: 0px;
+}
+
+#home {
+    font-family: 'Slabo 27px', serif;
+}
+
+#things{
+    font-family: 'Slabo 27px', serif;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+li:hover {
+    font-size: 18px;
+}
+
+#links a {
+    color: black;
+    text-decoration: none;
+}
+
+#links li {
+    margin-left: 20px;
+    display: inline;
+    padding: 15px;
+    border-right: 2px solid white;
+}
+
+#fquestion{
+    font-weight: bolder;
+}
+
+#sj {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#sjh2 {
+    margin-left: 100px;
+}
+
+#social {
+    float: right;
+    margin-right: 100px;
+    width: 175px;
+    height: 100px;
+    background-color: whitesmoke;
+}
+
+table {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+#text {
+    border: 3px solid black;
+}
+
+.logo {
+    height: 15px;
+    width: 15px;
+}
+
+.footer {
+    background: grey;
+}
